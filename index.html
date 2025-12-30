@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jos Alukkas</title>
+    <link rel="stylesheet" href="style.css">
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+  <div class="top-banner">
+    Today's Gold Rate : Gold 18Kt Rate ₹9,565/gm
+  </div>
+
+  <header class="header">
+    <div class="header-container">
+      <div class="hamburger" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="logo" style="width: 80%;">
+        <img src="logo-red.png" alt="logo">
+      </div>
+      <div class="header-icons">
+        <div class="icon-item">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="icon-item">
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="icon-item">
+          <i class="fas fa-shopping-bag"></i>
+          <span>0</span>
+        </div>
+        <div class="icon-item">
+          <i class="far fa-user"></i>
+        </div>
+        <a href="#" class="signin-text">Sign In / Sign Up</a>
+      </div>
+    </div>
+  </header>
+  <nav class="nav-menu">
+    <div class="nav-container">
+      <ul class="nav-list" id="navList">
+        <li><a href="#">Gold Jewellery</a></li>
+        <li><a href="#">Diamond Jewellery</a></li>
+        <li><a href="#">Platinum Jewellery</a></li>
+        <li><a href="#">Silver Jewellery</a></li>
+        <li><a href="#">Daily Wear/18KT</a></li>
+        <li><a href="#">Coins & Gifts</a></li>
+        <li><a href="#">Digi Gold</a></li>
+        <li><a href="#">Gold Scheme</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <video id="slideVideo" src="jos-alukkas-video-banner-03.mp4" autoplay muted loop style="width:100%;"></video>
+  </div>
+  <div class="mySlides fade">
+    <img src="jos-alukkas-banner-02.avif" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="jos-alukkas-banner-03.avif" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="jos-alukkas-banner-05.avif" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="jos-alukkas-banner-07.avif" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="jos-alukkas-banner-06.avif" style="width:100%">
+  </div>
+  <div class="dots">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</div><br>
+  <section class="trust-section">
+    <div class="trust-container">
+      <ul class="trust-list">
+        <li class="trust-item">
+          <i class="fas fa-shield-alt trust-icon"></i>
+          <div class="trust-label">Safe &<br>Secure Delivery</div>
+        </li>
+        <li class="trust-item">
+          <i class="fas fa-truck trust-icon"></i>
+          <div class="trust-label">Free<br>Shipping</div>
+        </li>
+        <li class="trust-item">
+          <i class="fas fa-gem trust-icon"></i>
+          <div class="trust-label">Certified<br>Diamonds</div>
+        </li>
+        <li class="trust-item">
+          <i class="fas fa-sync-alt trust-icon"></i>
+          <div class="trust-label">100% Diamond<br>Exchange</div>
+        </li>
+        <li class="trust-item">
+          <i class="fas fa-award trust-icon"></i>
+          <div class="trust-label">BIS<br>Hallmarked</div>
+        </li>
+        <li class="trust-item">
+          <i class="fas fa-undo trust-icon"></i>
+          <div class="trust-label">7 Days<br>Return Policy</div>
+        </li>
+        <li class="trust-item">
+          <i class="fas fa-tools trust-icon"></i>
+          <div class="trust-label">Lifetime<br>Maintenance</div>
+        <li class="trust-item">
+          <i class="fas fa-handshake trust-icon"></i>
+          <div class="trust-label">Guaranteed<br>Buyback</div>
+        </li>
+
+      </ul>
+    </div>
+  </section><br>
+
+  <section class="trending-categories">
+    <h2 class="section-title">Trending Categories</h2>
+
+    <div class="categories-grid">
+      <div class="category-item">
+        <div class="category-img-wrapper">
+          <img src="GoldEarring.avif" alt="Gold Earrings" class="category-img">
+        </div>
+      </div>
+      <div class="category-item">
+        <div class="category-img-wrapper">
+          <img src="DiamondRing.avif" alt="Diamond Ring" class="category-img">
+        </div>
+      </div>
+      <div class="category-item">
+        <div class="category-img-wrapper">
+          <img src="GoldBangles.avif" alt="Gold Bangles" class="category-img">
+        </div>
+      </div>
+      <div class="category-item">
+        <div class="category-img-wrapper">
+          <img src="DiamondPendant.avif" alt="Diamond Pendant" class="category-img">
+        </div>
+      </div>
+      <div class="category-item">
+        <div class="category-img-wrapper">
+          <img src="Mangalsutra.avif" alt="Mangalsutra" class="category-img">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="jewellery-section">
+    <div class="jewellery-container">
+      <div class="jewellery-image">
+        <img src="jewellery-for-her.avif" alt="Jewellery for Her">
+      </div>
+      <div class="jewellery-content">
+        <h2 class="jewellery-title">Jewellery for her</h2>
+        <p class="jewellery-desc">
+          Let her smile and shine in the finest gold & diamond designs.
+        </p>
+        <a href="#" class="shop-now-btn">Shop Now</a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <section class="signature">
+    <h2>Signature Essentials</h2>
+
+    <div class="slider">
+        <div class="slide-track">
+            <div class="card">
+                <div class="img-box">
+                    <img src="orchid-collection (1).avif" alt="">
+                </div>
+                <h3>Orchid</h3>
+                <p>Celebrate your inner sparkle!</p>
+                <a href="#">Shop Now</a>
+            </div>
+
+            <div class="card">
+                <div class="img-box">
+                    <img src="Shapes.avif" alt="">
+                </div>
+                <h3>Shapes</h3>
+                <p>Perfection in every cut!</p>
+                <a href="#">Shop Now</a>
+            </div>
+
+            <div class="card">
+                <div class="img-box">
+                    <img src="solo-collections.avif" alt="">
+                </div>
+                <h3>Solo</h3>
+                <p>Make an Impression!</p>
+                <a href="#">Shop Now</a>
+            </div>
+
+            <div class="card">
+                <div class="img-box">
+                    <img src="IVY-Collections.avif" alt="">
+                </div>
+                <h3>IVy</h3>
+                <p>Elegance in design.</p>
+                <a href="#">Shop Now</a>
+            </div>
+
+            <div class="card">
+                <div class="img-box">
+                    <img src="mirage.avif" alt="">
+                </div>
+                <h3>Mirage</h3>
+                <p>Nature Inspired Beauty.</p>
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="celebration-section">
+    <div class="left-box">
+        <div class="title-row">
+            <div>
+                <h2>Celebration Edit</h2>
+                <p>Life is one big celebration. Dance, dazzle and enjoy with the finest festive jewellery designs.</p>
+            </div>
+
+            <a href="#" class="view-all">View All</a>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="large_jos-alukkas-Gold-Necklace--JA8ZPN-p1BM.avif" alt="">
+                    <span class="wish">♡</span>
+                </div>
+                <h4>Royal Cascade Gold…</h4>
+                <p class="price">₹284,485.00</p>
+                <button class="cart-btn">🛒</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="large_jos-alukkas-Gold-Necklace--JA243S-25wh.avif" alt="">
+                    <span class="wish">♡</span>
+                </div>
+                <h4>Green Petal Glow Gold…</h4>
+                <p class="price">₹199,086.00</p>
+                <button class="cart-btn">🛒</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="large_jos-alukkas-Gold-Necklace--JATWXZ-tQz5.avif" alt="">
+                    <span class="wish">♡</span>
+                </div>
+                <h4>Pearl Implied Antique…</h4>
+                <p class="price">₹296,287.00</p>
+                <button class="cart-btn">🛒</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="large_jos-alukkas-Gold-Necklace--JAHQ60-xuYG.avif" alt="">
+                    <span class="wish">♡</span>
+                </div>
+                <h4>Floral Pattern Precious…</h4>
+                <p class="price">₹191,519.00</p>
+                <button class="cart-btn">🛒</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="large_jos-alukkas-Gold-Necklace--JA2HP7-UsAM_1.avif" alt="">
+                    <span class="wish">♡</span>
+                </div>
+                <h4>Tone Twist Gold Necklace</h4>
+                <p class="price">₹668,112.00</p>
+                <button class="cart-btn">🛒</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="large_jos-alukkas-Gold-Necklace--JAQQJ2-5z4e_1.avif" alt="">
+                    <span class="wish">♡</span>
+                </div>
+                <h4>Vibe Link Motif Necklace</h4>
+                <p class="price">₹519,643.00</p>
+                <button class="cart-btn">🛒</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="right-box">
+        <img src="celebration-edit.avif" alt="">
+    </div>
+
+</section>
+<div class="video-container">
+    <video src="aira-banner.mp4" autoplay muted loop></video>
+</div>
+
+
+<section class="gender-section">
+    <h2>Shop By Gender</h2>
+
+    <div class="gender-grid">
+        <div class="gender-card">
+            <img src="women.avif" alt="">
+        </div>
+        <div class="gender-card">
+            <img src="men.avif" alt="">
+        </div>
+        <div class="gender-card">
+            <img src="kids.avif" alt="">
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="earring-section">
+    <h2>Earrings That Define You</h2>
+
+    <div class="earring-grid">
+        <div class="earring-card">
+            <img src="jhumkas.avif" alt="jhumkas">
+        </div>
+        <div class="earring-card">
+            <img src="drops.avif" alt="drops">
+        </div>
+        <div class="earring-card">
+            <img src="studs.avif" alt="studs">
+        </div>
+        <div class="earring-card">
+            <img src="hoops.avif" alt="hoops">
+        </div>
+    </div>
+</section>
+
+
+
+<section class="designs-section">
+    <div class="designs-left">
+        <img src="products-under-2k.avif" alt="Model">
+    </div>
+
+    <div class="designs-right">
+        <h2>Designs Under 25k</h2>
+
+        <img src="logo-red.png" class="faded-logo" alt="Brand Logo">
+
+        <p class="subtitle">
+            Glitters & sparkles...all at attractive budget-friendly prices.
+        </p>
+
+        <button class="explore-btn">Explore Now</button>
+    </div>
+</section>
+  <section class="exclusive-section">
+    <h2 class="section-title">Exclusive jewellery for you</h2>
+
+    <div class="jewellery-scroll">
+      <div class="scroll-track">
+        <div class="jewellery-card">
+          <div class="card-img-wrapper">
+            <img src="large_jos-alukkas-Gold-Ring--JAJK92-5KsD.avif" alt="Circle Charm Hoops" class="card-img">
+            <i class="far fa-heart wishlist"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Circle Charm Hoops Gold Earrings</div>
+            <div class="card-price">₹31,534.00</div>
+            <div class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="jewellery-card">
+          <div class="card-img-wrapper">
+            <img src="large_jos-alukkas-Diamond-Ring--JA764F-ElR7.avif" alt="Coiled Elegance" class="card-img">
+            <i class="far fa-heart wishlist"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Coiled Elegance Gold Pendant</div>
+            <div class="card-price">₹40,066.00</div>
+            <div class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="jewellery-card">
+          <div class="card-img-wrapper">
+            <img src="large_jos-alukkas-Gold-Earring--JACZNE-bYr5.avif" alt="Twilight Star" class="card-img">
+            <i class="far fa-heart wishlist"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Twilight Star And Moon Gold Ring</div>
+            <div class="card-price">₹27,254.00</div>
+            <div class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="jewellery-card">
+          <div class="card-img-wrapper">
+            <img src="large_jos-alukkas-Diamond-Nose-Pin--JAV79Z-XFCD.avif" alt="Rainbow Radiance" class="card-img">
+            <i class="far fa-heart wishlist"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Rainbow Radiance Gold Ring</div>
+            <div class="card-price">₹44,675.00</div>
+            <div class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="jewellery-card">
+          <div class="card-img-wrapper">
+            <img src="large_jos-alukkas-Gold-Bangle--JAIYAT-Gdt6.avif" alt="Scarlet Dew" class="card-img">
+            <i class="far fa-heart wishlist"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Scarlet Dew Motif Gold Ring</div>
+            <div class="card-price">₹29,692.00</div>
+            <div class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="jewellery-card">
+          <div class="card-img-wrapper">
+            <img src="large_jos-alukkas-Gold-Earring--JAGUI0-3ji9.avif" alt="Butterfly Charm" class="card-img">
+            <i class="far fa-heart wishlist"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Butterfly Charm Gold Ring</div>
+            <div class="card-price">₹39,207.00</div>
+            <div class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="jewellery-card">
+          <div class="card-img-wrapper">
+            <img src="large_jos-alukkas-Gold-Ring--JAN0OA-W6em_1.avif" alt="Circle Charm Hoops" class="card-img">
+            <i class="far fa-heart wishlist"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Circle Charm Hoops Gold Earrings</div>
+            <div class="card-price">₹31,534.00</div>
+            <div class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="jewellery-card">
+          <div class="card-img-wrapper">
+            <img src="large_jos-alukkas-Diamond-Earring--JAW8D4-Gax3.avif" alt="Coiled Elegance" class="card-img">
+            <i class="far fa-heart wishlist"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Coiled Elegance Gold Pendant</div>
+            <div class="card-price">₹40,066.00</div>
+            <div class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="jewellery-card">
+          <div class="card-img-wrapper">
+            <img src="large_jos-alukkas-Gold-Bracelet--JAODSD-F4gZ.avif" alt="Twilight Star" class="card-img">
+            <i class="far fa-heart wishlist"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Twilight Star And Moon Gold Ring</div>
+            <div class="card-price">₹27,254.00</div>
+            <div class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="jewellery-card">
+          <div class="card-img-wrapper">
+            <img src="large_jos-alukkas-Diamond-Pendant--JAY2T8-6XTO.avif" alt="Rainbow Radiance" class="card-img">
+            <i class="far fa-heart wishlist"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Rainbow Radiance Gold Ring</div>
+            <div class="card-price">₹44,675.00</div>
+            <div class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="hero-section">
+  <div class="hero-left">
+    <h2>Gifts</h2>
+    <p>Precious little surprises for your<br>precious people.</p>
+
+    <a href="#" class="shop-btn">Shop Now</a>
+  </div>
+
+  <div class="hero-right">
+    <img src="gifts.avif" alt="Gifts Image">
+  </div>
+</section>
+
+
+<section class="four-banner-section">
+    <div class="banner-item">
+        <img src="DigiGold.avif" alt="Banner 1">
+    </div>
+
+    <div class="banner-item">
+        <img src="GoldCoin.avif" alt="Banner 2">
+    </div>
+
+    <div class="banner-item">
+        <img src="EasyBuy.avif" alt="Banner 3">
+    </div>
+
+    <div class="banner-item">
+        <img src="GiftCard.avif" alt="Banner 4">
+    </div>
+</section>br
+
+
+
+</section>
+<div class="video-container1">
+    <video src="videoplayback (2).mp4" autoplay muted loop></video>
+</div>
+
+
+
+<section class="gold-info">
+
+    <h2>Gold Jewellery Designs Online</h2>
+    <p>
+        Buy BIS HUID Hallmarked gold jewellery designs online with Jos Alukkas. 
+        We have a wide variety of Gold, Diamond and Platinum jewellery for you to choose from.
+    </p>
+
+    <h2>Buy Beautiful Gold Jewellery Designs Online</h2>
+    <p>
+        Gold jewellery has been adored by millions for its opulent and timeless allure. 
+        It’s a symbol of wealth, power, and prosperity. It’s versatile, suiting every skin tone flawlessly, 
+        no matter if it’s statement jewellery or something subtle. 
+        At Jos Alukkas, we present you timeless keepsakes that embody this very essence. 
+        These radiant pieces are a testament to the grandeur and opulence that gold has symbolised over all these years.
+    </p>
+
+    <h2>Jewellery That Never Fails to Mesmerise, Irresistible in Every Hue</h2>
+
+    <p>
+        <strong>Yellow Gold:</strong> One of the most classic kinds of jewellery, yellow gold is typically crafted 
+        by combining pure gold with metals such as copper, silver, and zinc. 
+        At Jos Alukkas, we offer a vast assortment of yellow gold jewellery, 
+        from classy <a href="#">gold necklaces</a>, radiant gold bangles, dazzling gold rings, chic earrings, 
+        and much more!
+    </p>
+
+    <p>
+        <strong>White Gold:</strong> White gold jewellery exudes a beautiful silvery sheen like no other. 
+        If you’re someone with a minimalist and modern personality, 
+        this makes it an astonishing piece to own. Many choose white gold 
+        owing to its resemblance to platinum jewellery at a price that’s affordable.
+        White gold is typically crafted by combining pure gold with white metals 
+        such as silver, nickel, etc.
+    </p>
+
+    <p>
+        <strong>Rose Gold:</strong> Rose gold is typically crafted by combining pure gold with copper. 
+        A versatile metal, you can pair them with any accessory. 
+        Its warm tone is ideal for romantic moments, from weddings to anniversaries. 
+        They can also be paired with your casual and semi-formal outfits. 
+        Many options in rose gold are available here at Jos Alukkas to complement your everyday wear. 
+        Check them out and buy gold jewellery online!
+    </p>
+
+    <h2>Embrace the Bling of Gold Jewellery on Every Occasion</h2>
+
+    <p>
+        <strong>Everyday Wear:</strong> The jewellery you adorn yourself with must be simple yet elegant. 
+        Our collection caters to the needs of men, women, kids in different age groups and discerning tastes 
+        looking to make a gold jewellery purchase online. Our collection features earrings, rings, pendants, anklets, 
+        bangles, bracelets, and the like. Instead of owning many accessories for each of your outfits, 
+        one single everyday piece of jewellery from Jos Alukkas is all you need.
+    </p>
+
+    <p>
+        <strong>Casual Wear:</strong> Casual occasions call for funky and statement-making jewellery. 
+        That’s why you need to head over to our casual wear jewellery section to discover everything you need 
+        to exude radiance. Be it a lightweight necklace or tiny gold earrings, 
+        you can find the best ally for your casual outfit here at Jos Alukkas!
+    </p>
+
+    <p>
+        <strong>Formal Wear:</strong> Navigate from your business meetings to client presentations 
+        to formal dinners in style with our formal wear jewellery. The key is not to go overboard 
+        by being flashy and bold. Keeping this in mind, we’ve curated our selection. 
+        It features understated and elegant jewellery ideal for everything formal, 
+        waiting to be adorned by you. Simply go browse our selection of charming bracelets 
+        and trending pendants to choose a piece that’s unique to you.
+    </p>
+
+    <p>
+        <strong>Party Wear:</strong> If there’s an occasion where you can flaunt your gold jewellery, 
+        then it’s celebrations! Unlike other occasions, you can sport ornate and splendid pieces, 
+        like our chunky gold bangles, floral motif rings, or multi-layered necklaces 
+        that make anyone say Wow! No matter the colour and design of your celebratory outfit, 
+        with Jos Alukkas, you can be assured of buying something that complements it impeccably. 
+        Shopping gold jewellery online has never been easier with Jos Alukkas Online!
+    </p>
+
+    <p>
+      <strong>Gift Jewellery That Speaks Volumes About Your Love For Them!</strong><br>
+Your Family Member <br>
+
+
+
+Occasions in families, from birthdays, anniversaries, festivals, etc., call for gifts. And there’s no better option more precious than gold jewellery. If you’re looking for gifts for your father or mother, you can show your gratitude and appreciation for their unconditional love and care. For him, go for our gold chains. For her, go for our gold bangles. 
+
+Brothers and sisters will be a constant source of support and companionship. They are the ones who’ll be with us throughout our life journey and deserve something special. Gold kada will be your best bet for your brother and gold earrings for your sister. When it comes to kids, giving something that’s subtle yet impactful will be ideal. Be it a kids anklet or kids bracelet, it will gain sentimental value with every single year. 
+
+
+
+As an Investment 
+
+
+
+Gold jewellery is renowned to be a cherished heirloom passed down through generations and has much sentimental value to it. It has much more importance, a symbol of family legacy. It’s not just invaluable but also has profound emotional importance. 
+
+One of the best gold investments is gold coins. And we at Jos Alukkas have a huge assortment of gold coins in varying weights, such as 1, 2, 4, and 8 grams. They feature a variety of motifs from religious to nature. Go check out our newest selection now!
+    </p>
+
+    <p>
+      <strong>Frequently Asked Questions</strong><br>
+<blockquote>1.What is the difference between white gold, yellow gold, and rose gold?</blockquote><br>
+
+The metal composition makes each distinct. Rose gold is made by combining pure gold with copper. White gold is made by combining pure gold with palladium. Yellow gold is made by combining pure gold with alloys such as copper and zinc. <br><br>
+
+
+<blockquote>2.Do you customize gold jewellery?</blockquote>
+
+Certainly! We are equipped with some of the best designers, who can craft the jewellery of your dreams. While shopping gold jewelry online at Jos Alukkas, you can find an option called looking for a customized product, allowing you to start customising the jewellery of your choice in any aspect of customization, cut, colour, size. <br><br>
+
+
+<blockquote>3.How do I know the perfect size when I make a gold jewellery purchase online? </blockquote><br>
+
+We’ve curated a bangle size guide and a ring size guide for your reference. Prior to ordering, make sure to measure your arm or finger using a ruler or measuring tape. <br><br>
+
+
+<blockquote>4.Can I return or exchange a product after online gold jewellery purchase? </blockquote><br>
+
+We offer a hassle free return/exchange. Make sure to read the terms and conditions prior to buying jewellery. <br><br>
+
+
+<blockquote>5.When shopping gold jewelry online, how do I know if it's authentic or not?</blockquote><br>
+
+While shopping for gold jewellery online, all the vital information from certification like BIS hallmarking, as well as metal information.
+    </p>
+</section>
+<hr>
+
+
+<div class="category-menu">
+  <a href="#">Gold Jewellery</a>
+  <a href="#">Diamond Jewellery</a>
+  <a href="#">Platinum Jewellery</a>
+  <a href="#">Gold Coin</a>
+  <a href="#">Kids Jewellery</a>
+  <a href="#">Our Brands</a>
+  <a href="#">Men's Ring</a>
+  <a href="#">Gold Pendants</a>
+  <a href="#">Gold Bangles</a>
+  <a href="#">Gold Earrings</a>
+  <a href="#">Gold Necklaces</a>
+  <a href="#">Gold Mangalsutra</a>
+  <a href="#">Gold Anklets</a>
+  <a href="#">Diamond Ring</a>
+  <a href="#">Diamond Pendant</a>
+  <a href="#">Diamond Bracelet</a>
+  <a href="#">Diamond Earring</a>
+  <a href="#">Diamond Bangles</a>
+  <a href="#">Diamond Necklaces</a>
+  <a href="#">Diamond Nosepin</a>
+  <a href="#">Platinum Ring</a>
+  <a href="#">Platinum Chain</a>
+  <a href="#">Platinum Bracelet</a>
+  <a href="#">Platinum Pendant</a>
+  <a href="#">Gold Coins</a>
+  <a href="#">Digi Gold</a>
+</div>
+
+
+<section class="subscribe-section">
+  <h2>Subscribe to Jos Alukkas Online</h2>
+  <p>Elevate Your Loved Ones Style With<br>Dazzling Gold Jewelery</p>
+
+  <div class="subscribe-box">
+    <div class="input-area">
+      <span class="icon">✉</span>
+      <input type="email" placeholder="Enter your Email address" required>
+      <span class="required-text">Required</span>
+    </div>
+
+    <button class="subscribe-btn">Subscribe</button>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+
+  <div class="footer-container">
+    <div class="footer-col">
+      <h3>SHOPPING</h3>
+      <a href="#">Gold Jewellery</a>
+      <a href="#">Diamond Jewellery</a>
+      <a href="#">Platinum Jewellery</a>
+      <a href="#">Silver Jewellery</a>
+      <a href="#">Gold Coin</a>
+      <a href="#">Digi Gold</a>
+      <a href="#">Blog</a>
+      <a href="#">CSR</a>
+      <a href="#">Gold Rate</a>
+    </div>
+    <div class="footer-col">
+      <h3>CUSTOMER SERVICES</h3>
+      <a href="#">Terms of use</a>
+      <a href="#">Scheme Payment</a>
+      <a href="#">Shipping Policy</a>
+      <a href="#">Cancellation Policy</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Return / Exchange policy</a>
+      <a href="#">Gift Card Policy</a>
+      <a href="#">Customize Product</a>
+      <a href="#">Gold Coin Make On Request</a>
+    </div>
+
+    <div class="footer-col">
+      <h3>LET US HELP YOU</h3>
+      <a href="#">FAQ</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Payment FAQ</a>
+      <a href="#">Ring Size Guide</a>
+      <a href="#">Bangle Size Guide</a>
+      <a href="#">Education</a>
+      <a href="#">Offer Zone</a>
+      <a href="#">Sitemap</a>
+      <a href="#">HUID FAQ</a>
+    </div>
+    <div class="footer-col">
+      <h3>OUR COMPANY</h3>
+      <a href="#">About us</a>
+      <a href="#">History</a>
+      <a href="#">Career</a>
+      <a href="#">Store Locator</a>
+      <a href="#">Feedback</a>
+      <a href="#">Media</a>
+    </div>
+    <div class="footer-right">
+      <h3>SHOP FROM JOS ALUKKAS ONLINE. ANYTIME. ANYWHERE</h3>
+
+      <p>
+        Find the best Gold & Diamond Jewellery with just a click. 
+        The Jos Alukkas online store brings you the latest Jewellery designs & gives the safest online Jewellery 
+        shopping platform. Trendy Jewellery, Antique Gold, Rose Gold, Diamond Jewellery, Platinum Jewellery… 
+        you get it all in just a click.
+      </p>
+
+      <div class="qr-apps">
+        <img src="app_qrcode.webp" class="qr" alt="QR Code">
+        <div class="store-btns">
+          <img src="googleplay.webp" class="store-img" alt="Play Store">
+          <img src="appstore.webp" class="store-img" alt="App Store">
+        </div>
+      </div>
+
+    </div>
+    <div class="mobile-img-box">
+      <img src="jos-alukkas-mobile-app.avif" alt="Mobile App" class="mobile-img">
+    </div>
+
+  </div>
+  <div class="social-row">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+  <p class="copy">
+    2025 Jos Alukkas Group. All rights reserved. The product/service names listed in this document are marks and/or 
+    registered marks of their respective owners and used under license. Unauthorized use strictly prohibited.
+  </p>
+  <div class="back-to-top">↑</div>
+
+</footer>
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
